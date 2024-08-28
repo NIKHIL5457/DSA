@@ -5,7 +5,7 @@ class Solution {
             int diff=heights[i]-heights[i-1];
             if(diff>0){
                 if(s.size()<ladders){
-                    s.add(diff);
+                    s.add(diff)
                 }
                 else{
                     int br=diff;
